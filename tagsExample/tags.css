@@ -2,8 +2,15 @@ div{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 30%;
+    height: 60%;
 }
-/* dt{
+
+dt{
     font-weight: 600;
-} */
+}
+table, td, th{
+    border: 1px black solid;
+}
+th{
+    background: red;
+}
