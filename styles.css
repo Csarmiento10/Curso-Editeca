@@ -1,0 +1,16 @@
+div{
+    display: flex;
+    justify-content: space-around;
+    align-items: normal;
+    height: 50%;
+}
+
+dt{
+    font-weight: 600;
+}
+table, td, th{
+    border: 1px black solid;
+}
+th{
+    background: red;
+}
