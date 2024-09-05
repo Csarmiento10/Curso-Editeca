@@ -1,8 +1,8 @@
 div{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    height: 60%;
+    align-items: normal;
+    height: 50%;
 }
 
 dt{
