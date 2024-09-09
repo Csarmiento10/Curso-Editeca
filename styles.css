@@ -1,16 +1,63 @@
-div{
+body{
+    width: 100vw;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+#encabezado{ 
+    position: fixed;      
+    height: 70px;
+    width: 100vw;
     display: flex;
-    justify-content: space-around;
-    align-items: normal;
-    height: 50%;
+    background: white;
+    
 }
-
-dt{
-    font-weight: 600;
+#toolbar{
+    position: relative;
+    top: 80px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(83, 83, 230);        
+    position: fixed;
+    width: 100vw;
+    height: 30px;
+    text-decoration: none;
+    align-items: center;
+    z-index: 3000;
+    justify-content:space-evenly;        
+    transform-origin: top;
+    font-size: x-small;
+    
 }
-table, td, th{
-    border: 1px black solid;
+.toolbarElem{   
+    margin: -130px; 
+    text-decoration: none;
+    color: white;
 }
-th{
-    background: red;
+.toolbarElem:hover{
+    color: rgb(16, 18, 192);
+}
+#intro{
+    position: relative;
+    top: 110px;
+}
+#img{
+    position: relative;
+    top: 110px;
+}
+#table{
+    position: relative;
+    top: 110px;
+}
+#ventajas{
+    position: relative;
+    top: 110px;
+}
+#form{
+    position: relative;
+    top: 110px;
+}
+#maps{
+    position: relative;
+    top: 110px;
 }
