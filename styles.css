@@ -4,12 +4,18 @@ body{
     overflow-x: hidden;
     overflow-y: scroll;
 }
-#encabezado{ 
-    position: fixed;      
-    height: 70px;
-    width: 100vw;
-    display: flex;
-    background: white;
+#encabezado{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #ffffff;
+    color: rgb(12, 1, 1);
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     
 }
 #toolbar{
@@ -26,8 +32,7 @@ body{
     z-index: 3000;
     justify-content:space-evenly;        
     transform-origin: top;
-    font-size: x-small;
-    
+    font-size:small;
 }
 .toolbarElem{   
     margin: -130px; 
