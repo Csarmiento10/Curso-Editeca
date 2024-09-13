@@ -4,6 +4,11 @@ body{
     overflow-x: hidden;
     overflow-y: scroll;
 }
+#celular{
+    position: absolute;
+    right: 0%;
+    font-size: x-small;
+}
 #encabezado{
     position: fixed;
     top: 0;
@@ -15,8 +20,7 @@ body{
     text-align: center;
     padding: 10px 0;
     z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-    
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);    
 }
 #toolbar{
     position: relative;
@@ -47,22 +51,77 @@ body{
     top: 110px;
 }
 #img{
-    position: relative;
+    position: relative;    
     top: 110px;
+    height: 700;    
 }
-#table{
+#BSImage{
+    position: absolute;
+    top: 2%;
+    left: 22%;
+}
+#BS{
+    position: absolute;
+    top: 15%;
+    left: 65%;
+}
+#RFImage{
+    position: absolute;
+    left:55%;
+    top: 35%;
+}
+#RF{
+    position: absolute;
+    top: 50%;
+    left: 32%;
+}
+#dicImage{
+    position: absolute;
+    top: 68%;
+    left: 22%;
+}
+#Dic{
+    position: absolute;
+    top: 81%;
+    left: 65%;
+}
+table{
     position: relative;
     top: 110px;
+    width: 100vw;
+    left: 25%;
 }
 #ventajas{
     position: relative;
     top: 110px;
+    left: 35%;
 }
-#form{
+form{    
+    width: fit-content;
+}
+form{
+    text-align: center;
     position: relative;
     top: 110px;
+    left: 41%;
+}
+hr{
+    position: relative;
+    top: 110px;
+}
+fieldset{
+    border-radius: 10px;
 }
 #maps{
     position: relative;
     top: 110px;
+}
+button{
+    position: relative;
+    top: 130px;
+}
+.buttonSet{
+    display: flex;    
+    justify-content: space-between;
+    margin: 100px;
 }
