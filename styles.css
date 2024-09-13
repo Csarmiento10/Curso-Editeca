@@ -75,6 +75,11 @@ body{
     top: 50%;
     left: 32%;
 }
+#dic{
+    position: absolute;
+    top: 82%;
+    left: 65%;
+}
 #dicImage{
     position: absolute;
     top: 68%;
