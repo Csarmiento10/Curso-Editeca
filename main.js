@@ -59,7 +59,7 @@ function cambiarSeccion(seccion) {
             contenido = {
                 titulo: "Aplicación no encontrada",
                 descripcion: "Por favor selecciona una aplicación válida.",
-                imagen: ""
+                imagen: "/assets/IconoFinger135x135.png"
             };
     }
 
